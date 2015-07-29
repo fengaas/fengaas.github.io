@@ -120,7 +120,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Avernir Next';
+  font-family: 'raleway';
   font-size: 1em;
 }
 
@@ -221,14 +221,14 @@ th {
 @media print {
   * {
     text-shadow: none !important;
-    color: #000 !important;
+    color: white !important;
     background: transparent !important;
     box-shadow: none !important;
   }
 
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a[href]:after {
@@ -308,7 +308,7 @@ th {
   }
 }
 @font-face {
-  font-family: 'Avenir next';
+  font-family: 'raleway';
   src: url("bootstrap/glyphicons-halflings-regular.eot");
   src: url("bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
@@ -317,7 +317,7 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Avenir next';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -1144,7 +1144,7 @@ html {
 }
 
 body {
-  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-family: 'raleway', Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.42857;
   color: #696f6f;
@@ -1253,7 +1253,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: 'raleway';
   font-weight: 500;
   line-height: 1.1;
   color: #1b1f23;
@@ -1621,7 +1621,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Avernir Next';
+  font-family: 'raleway';
 }
 
 code {
@@ -1726,8 +1726,8 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
@@ -2177,7 +2177,7 @@ pre code {
   }
 
   .col-md-7 {
-    width: 58.33333%;
+    
   }
 
   .col-md-8 {
@@ -3650,21 +3650,25 @@ tbody.collapse.in {
 }
 
 .jumbotron {
-  padding: 30px 0;
+  padding: 0px 0;
   margin-bottom: 0;
   color: white;
-  background: #2e2f41 url(../images/bakis2.jpg) 0 0 no-repeat;
+  background: #2e2f41 url(../images/having-fun-red.jpg) 0 0 no-repeat;
   background-size: cover;
   text-align: center;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: white;
+  text-align: center;
+  padding-top: 300px;
+  padding-left: 60px; 
+  padding-right: 60px;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 30;
 }
 .jumbotron > hr {
   border-top-color: #d7dbde;
@@ -3696,13 +3700,13 @@ tbody.collapse.in {
   }
 }
 .jumbotron .img-logo {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
+  display: left;
+  margin-left: 2px;
+  margin-right: 1px;
+  width: 100px;
   height: auto;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 800px) {
   .jumbotron .img-logo {
@@ -4273,16 +4277,16 @@ tbody.collapse.in {
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'Avenir Next';
-  src: url("../fonts/Avenir Next.ttc");
-  src: url("../fonts/Avenir Next.ttc") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  font-family: 'raleway';
+  src: url("../fonts/Raleway-Regular.ttc");
+  src: url("../fonts/raleway") format("embedded-opentype"), url("../fonts/raleway/Raleway-Medium.ttf") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 .fa {
   display: inline-block;
-  font-family: 'Avenir Next';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -6049,14 +6053,37 @@ tbody.collapse.in {
 .services-section {
   background: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 30px;
 }
 .services-section .row.row-padding {
   padding-top: 40px;
 }
+.services-section p {
+  font-size: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: thin;
+}
+.sub-p p {
+  font-size: 20px;
+}
+
+.services-section h1{
+  color: orange;
+  font-family: 'Raleway';
+  font-weight: bolder;
+  font-style: bold;
+  
+}
+
+.services-section h4{
+  font-family: 'raleway';
+  font-size: 18px;
+  font-weight: lighter;
+}
 
 .col-services {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 @media screen and (max-width: 800px) {
   .col-services {
@@ -6085,33 +6112,72 @@ tbody.collapse.in {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80px;
+  width: 300px;
   height: auto;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .img-services.img-margin {
   margin-top: 14px;
-  margin-bottom: 31px;
-}
-#team {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: auto;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .features-section {
-  background: #699B98;
-  text-align: left;
-  padding: 100px 0;
+  background: white;
+  text-align: center;
+  padding: 10px 30px;
+  padding-bottom: 60px;
+
 }
-.features-section .row.row-padding {
+.features-section h1 {
+  color: #699B98;
+  font-style: bold;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+.features-section .join {
   padding-top: 40px;
+  color: #ff5a63;
 }
+.features-section .us {
+  padding-top: 40px;
+  color: #699B98;
+}
+.features-section p {
+  font-size: 15px;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+.myButton {
+  background-color:#ff5a62;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Raleway';
+  font-size:15px;
+  padding:10px 15px;
+  margin-top: 10px;
+}
+.myButton:hover {
+  background-color:#ff5a62;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.selfies {
+  width: auto;
+  height: 220px;
+  padding-top: 30px;
+}
+
+
+
 @media screen and (max-width: 800px) {
   .features-section .row.media-screen-800 {
     padding-top: 40px;
@@ -6163,13 +6229,13 @@ tbody.collapse.in {
   background: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: #dc554f;
-  color: #dc554f;
+  border-color: white;
+  color: white;
   padding-top: 8px !important;
   padding-bottom: 8px !important;
 }
 .features-section .btn-danger-border:hover, .features-section .btn-danger-border:focus {
-  background: #dc554f;
+  background: white;
   color: white;
 }
 .features-section .btn-app-store .btn.btn-lg, .features-section .btn-app-store .btn-group-lg > .btn {
@@ -6206,12 +6272,7 @@ tbody.collapse.in {
   }
 }
 
-.subscribe-section {
-  background: #2e2f41 url(../images/team2.jpg) 0 0 no-repeat;
-  text-align: center;
-  padding: 25% 0;
-  background-size: cover;
-  color: white;
+
 }
 .subscribe-section .row.row-padding {
   padding-top: 40px;
@@ -6282,7 +6343,7 @@ h3 {
 .footer-section {
   background: white;
   text-align: center;
-  padding: 60px 0;
+  padding: 0px 0;
 }
 .footer-section h2{
   padding-bottom: 10px;
@@ -6292,7 +6353,7 @@ h3 {
   padding-bottom: 20px;
 }
 .footer-section .row.row-padding {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 @media screen and (max-width: 800px) {
   .footer-section {
@@ -6301,6 +6362,8 @@ h3 {
 }
 .footer-section p {
   font-size: 15px;
+  src: url("../fonts/Raleway-Regular.ttc");
+  font-family: 'Raleway-Regular';
 }
 
 @media screen and (max-width: 800px) {
