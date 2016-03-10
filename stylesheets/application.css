@@ -6083,7 +6083,7 @@ tbody.collapse.in {
   font-size: 15px;
   font-weight: 300;
   font-style: bold;
-  text-align: left;
+  text-align: center;
   padding-left: 50px;
   letter-spacing: 5px;
   padding-bottom: 5px;
@@ -6092,7 +6092,7 @@ tbody.collapse.in {
   font-size: 13px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   padding-left: 50px;
   padding-bottom: 80px;
 }
@@ -6126,12 +6126,23 @@ tbody.collapse.in {
 .img-services {
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: -10px;
   width: 300px;
   height: auto;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 10%;
 }
+
+.img-services2 {
+  display: block;
+  margin-left: auto;
+  margin-right: 13%;
+  width: 60%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10%;
+}
+
 .img-services.img-margin {
   margin-top: 14px;
   margin-bottom: 10px;
